@@ -8186,3 +8186,7 @@
 ::1 - - [20/Apr/2018:11:44:16 +0200] "POST /wordpress/wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [20/Apr/2018:11:46:17 +0200] "POST /wordpress/wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [20/Apr/2018:11:48:21 +0200] "POST /wordpress/wp-admin/admin-ajax.php HTTP/1.1" 200 47
+::1 - - [20/Apr/2018:12:04:29 +0200] "POST /wordpress/wp-admin/admin-ajax.php HTTP/1.1" 200 47
+::1 - - [20/Apr/2018:12:05:17 +0200] "GET /wordpress/ HTTP/1.1" 200 9146
+::1 - - [20/Apr/2018:12:05:17 +0200] "GET /wordpress/wp-content/plugins/wp-fastest-cache/css/toolbar.css?ver=1524218717 HTTP/1.1" 200 4537
+::1 - - [20/Apr/2018:12:05:17 +0200] "GET /wordpress/wp-content/plugins/wp-fastest-cache/js/toolbar.js?ver=1524218717 HTTP/1.1" 200 760
