@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/tomfevang/WebPro2018/Wordpress/apache2/bin/envvars
+exec /Users/tomfevang/WebPro2018/Wordpress/apache2/bin/fcgistarter.bin "$@"

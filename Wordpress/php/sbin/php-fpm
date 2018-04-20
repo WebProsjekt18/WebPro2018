@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/tomfevang/WebPro2018/Wordpress/scripts/setenv.sh
+
+exec /Users/tomfevang/WebPro2018/Wordpress/php/sbin/.php-fpm.bin -y /Users/tomfevang/WebPro2018/Wordpress/php/etc/php-fpm.conf -p /Users/tomfevang/WebPro2018/Wordpress/php/var/ -c /Users/tomfevang/WebPro2018/Wordpress/php/etc/php.ini "$@"

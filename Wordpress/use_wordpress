@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Users/tomfevang/WebPro2018/Wordpress/apps/wordpress/bin:/Users/tomfevang/WebPro2018/Wordpress/varnish/bin:/Users/tomfevang/WebPro2018/Wordpress/sqlite/bin:/Users/tomfevang/WebPro2018/Wordpress/php/bin:/Users/tomfevang/WebPro2018/Wordpress/mysql/bin:/Users/tomfevang/WebPro2018/Wordpress/apache2/bin:/Users/tomfevang/WebPro2018/Wordpress/common/bin:$PATH"
+BITNAMI_ROOT="/Users/tomfevang/WebPro2018/Wordpress"
+export BITNAMI_ROOT
+
+
+exec /bin/bash --noprofile --norc

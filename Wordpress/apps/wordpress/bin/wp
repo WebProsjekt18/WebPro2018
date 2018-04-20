@@ -1,0 +1,6 @@
+#!/bin/bash
+. /Users/tomfevang/WebPro2018/Wordpress/scripts/setenv.sh
+export WP_CLI_CONFIG_PATH="/Users/tomfevang/WebPro2018/Wordpress/apps/wordpress/bin/wp-cli.yml"
+export WP_CLI_PHP_USED="/Users/tomfevang/WebPro2018/Wordpress/php/bin/php"
+
+exec "/Users/tomfevang/WebPro2018/Wordpress/php/bin/php" "/Users/tomfevang/WebPro2018/Wordpress/apps/wordpress/bin/wp-cli.phar" "$@"
