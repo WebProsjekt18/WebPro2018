@@ -1,6 +1,0 @@
-#!/bin/sh
-PHPRC=/Users/tomfevang/WebPro2018/Wordpress/php/etc
-export PHPRC
-
-. /Users/tomfevang/WebPro2018/Wordpress/php/../scripts/setenv.sh
-exec /Users/tomfevang/WebPro2018/Wordpress/php/bin/php.bin "$@"

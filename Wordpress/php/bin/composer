@@ -1,4 +1,0 @@
-#!/bin/sh
-. /Users/tomfevang/WebPro2018/Wordpress/php/../scripts/setenv.sh
-
-exec /Users/tomfevang/WebPro2018/Wordpress/php/bin/composer.phar "$@"

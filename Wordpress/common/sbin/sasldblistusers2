@@ -1,6 +1,0 @@
-#!/bin/sh
-
-. /Users/tomfevang/WebPro2018/Wordpress/scripts/setenv.sh
-SASL_PATH="/Users/tomfevang/WebPro2018/Wordpress/common/lib/sasl2"
-                export SASL_PATH
-exec /Users/tomfevang/WebPro2018/Wordpress/common/sbin/.sasldblistusers2.bin -f "/Users/tomfevang/WebPro2018/Wordpress/common/etc/sasldb2" "$@"
